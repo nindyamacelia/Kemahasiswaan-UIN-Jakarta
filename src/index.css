@@ -1,0 +1,70 @@
+/* Fonts loaded via index.html <link> tags for reliability */
+@import 'tailwindcss';
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-card: var(--card);
+  --color-card-foreground: var(--card-foreground);
+  --color-primary: var(--primary);
+  --color-primary-foreground: var(--primary-foreground);
+  --color-secondary: var(--secondary);
+  --color-secondary-foreground: var(--secondary-foreground);
+  --color-muted: var(--muted);
+  --color-muted-foreground: var(--muted-foreground);
+  --color-accent: var(--accent);
+  --color-accent-foreground: var(--accent-foreground);
+  --color-border: var(--border);
+  --color-ring: var(--ring);
+  --radius-sm: calc(var(--radius) - 2px);
+  --radius-md: var(--radius);
+  --radius-lg: calc(var(--radius) + 4px);
+  --radius-xl: calc(var(--radius) + 8px);
+}
+
+:root {
+  --background: #f4f7fc;
+  --foreground: #0f1c35;
+  --card: #ffffff;
+  --card-foreground: #0f1c35;
+  --primary: #1a3f7a;
+  --primary-foreground: #ffffff;
+  --secondary: #4a90d9;
+  --secondary-foreground: #ffffff;
+  --muted: #e4edf8;
+  --muted-foreground: #4a6080;
+  --accent: #0ea5e9;
+  --accent-foreground: #ffffff;
+  --border: #c5d5e8;
+  --ring: #1a3f7a;
+  --radius: 8px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+  background-color: var(--background);
+  color: var(--foreground);
+}
+
+h1, h2, h3 {
+  font-family: 'Playfair Display', serif;
+}
+
+::-webkit-scrollbar {
+  width: 4px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background: #4a90d9;
+  border-radius: 4px;
+}
