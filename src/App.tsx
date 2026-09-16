@@ -1,5 +1,6 @@
 import { useState } from "react";
-import uinLogo from "@/imports/uin_jkt.png";
+
+const uinLogo = "https://uinjkt.ac.id/assets/images/fav.png";
 
 const NAV_ITEMS = [
   { label: "Beranda", href: "#beranda" },
