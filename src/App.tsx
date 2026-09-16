@@ -1,5 +1,5 @@
 import { useState } from "react";
-import uinLogo from "@/imports/uin_jkt.png";
+import uinLogo from "./imports/uin_jkt.png";
 import wisudaImage from "./assetwisuda.jpg";
 
 const NAV_ITEMS = [
