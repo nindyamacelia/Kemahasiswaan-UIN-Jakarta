@@ -381,7 +381,7 @@ function AboutSection() {
           <div className="absolute inset-0 rounded-3xl overflow-hidden bg-[#e4edf8]">
             <img
               src={wisudaImage}
-              alt="Wisudawan melempar toga"
+              alt="Wisudawan melempar togaa"
               className="w-full h-full object-cover"
             />
           </div>
