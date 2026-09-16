@@ -1,6 +1,5 @@
 import { useState } from "react";
-import uinLogo from "./imports/uin_jkt.png";
-import wisudaImage from "./assetwisuda.jpg";
+import uinLogo from "@/imports/uin_jkt.png";
 
 const NAV_ITEMS = [
   { label: "Beranda", href: "#beranda" },
@@ -205,7 +204,7 @@ function HeroSection() {
     <section id="beranda" className="relative min-h-[90vh] flex items-center overflow-hidden">
       <div className="absolute inset-0 bg-[#0f1c35]">
         <img
-          src={wisudaImage}
+          src="https://images.unsplash.com/photo-1590012314607-cda9d9b699ae?w=1440&h=900&fit=crop&auto=format"
           alt="Wisudawan UIN Jakarta"
           className="w-full h-full object-cover opacity-25"
         />
@@ -380,8 +379,8 @@ function AboutSection() {
         <div className="relative h-[480px]">
           <div className="absolute inset-0 rounded-3xl overflow-hidden bg-[#e4edf8]">
             <img
-              src={wisudaImage}
-              alt="Wisudawan melempar togaa"
+              src="https://youngontop.com/wp-content/uploads/2025/04/low-angle-view-at-diverse-group-of-happy-young-fri-2025-04-01-20-11-58-utc-2048x1365.jpg"
+              alt="Wisudawan melempar toga"
               className="w-full h-full object-cover"
             />
           </div>
