@@ -1,5 +1,6 @@
 import { useState } from "react";
 import uinLogo from "@/imports/uin_jkt.png";
+import wisudaImage from "./assetwisuda.jpg";
 
 const NAV_ITEMS = [
   { label: "Beranda", href: "#beranda" },
@@ -204,7 +205,7 @@ function HeroSection() {
     <section id="beranda" className="relative min-h-[90vh] flex items-center overflow-hidden">
       <div className="absolute inset-0 bg-[#0f1c35]">
         <img
-          src="https://images.unsplash.com/photo-1590012314607-cda9d9b699ae?w=1440&h=900&fit=crop&auto=format"
+          src={wisudaImage}
           alt="Wisudawan UIN Jakarta"
           className="w-full h-full object-cover opacity-25"
         />
@@ -379,7 +380,7 @@ function AboutSection() {
         <div className="relative h-[480px]">
           <div className="absolute inset-0 rounded-3xl overflow-hidden bg-[#e4edf8]">
             <img
-              src="https://images.unsplash.com/photo-1541339907198-e08756dedf3f?w=700&h=500&fit=crop&auto=format"
+              src={wisudaImage}
               alt="Wisudawan melempar toga"
               className="w-full h-full object-cover"
             />
